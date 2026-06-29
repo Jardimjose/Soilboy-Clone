@@ -24,4 +24,4 @@ To challenge myself and master core web fundamentals, this project relies entire
 This is a static frontend site, it requires no installation or build steps simply clone the project locally to run.
 
 ## 📰 How to view
-The static page can be viewed through this github pages link [Soilboy clone](https://jardimjose.github.io/Website1/)
+The static page can be viewed through this github pages link [Soilboy clone](https://jardimjose.github.io/Soilboy-Clone/)
