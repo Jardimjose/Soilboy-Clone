@@ -61,15 +61,71 @@ ul {
   opacity: 0.55;
 }
 
+/* Dropdown container */
+.dropdown {
+    position: relative;
+}
+
+/* Hide dropdown by default */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding-top: 30px;
+    padding: 0;
+    display: none;
+    background: transparent;
+    min-width: 180px;
+    z-index: 1000;
+}
+
+/* Dropdown items */
+.dropdown-menu li {
+    margin: 10px 0;
+}
+
+/* Links */
+.dropdown-menu a {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px; 
+    font-weight: 400;
+    color: #233B2E;
+    letter-spacing: 0.2px;
+}
+
+.dropdown-menu a:hover {
+    color: #56785b;
+}
+
+/* Show on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 /* CENTER LOGO */
 .logo a {
-  font-family: 'DM Serif Display', serif;
-  font-size: 24px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  color: #2c2a25;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #1b2c20;
   text-decoration: none;
+  display: inline-block;
+  transform: scaleX(1.1); /* Slightly stretches the text horizontally */
+  transform-origin: left;
 }
+
+.logo a {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #233B2E;
+    text-decoration: none;
+    letter-spacing: -1px;
+
+}
+
 
 .logo a:hover {
   opacity: 0.7;
